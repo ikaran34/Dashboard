@@ -48,3 +48,10 @@ fig_map = px.scatter_geo(
     world_latest,
     locations="iso_code",
     size="total_cases",
+    hover_name="location",
+    projection="natural earth",
+    title="Cases Worldwide"
+)  # Make sure this closing parenthesis is present
+st.plotly_chart(fig_map)
+
+st.write("📢 **Deployment Instructions:** Push this code to GitHub (repository name: 'Untitled') and deploy on Streamlit Community Cloud.")
