@@ -48,10 +48,3 @@ fig_map = px.scatter_geo(
     world_latest,
     locations="iso_code",
     size="total_cases",
-    hover_name="location",
-    projection="natural earth",
-    title="Cases Worldwide"
-)
-st.plotly_chart(fig_map)
-
-st.write("📢 **Deployment Instructions:** Push this code to GitHub (repository name: 'Untitled') and deploy on Streamlit Community Cloud.")
