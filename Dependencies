@@ -1,6 +1,6 @@
 git init
 git add .
-git commit -m "Initial commit for Untitled dashboard"
+git commit -m "Initial commit for Dependencies dashboard"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/Untitled.git
+git remote add origin https://github.com/ikaran34/Dependencies.git
 git push -u origin main
